@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD1D2FFB2C66DFB8000E754F /* DiscoverScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1D2FFA2C66DFB8000E754F /* DiscoverScreen.swift */; };
+		FD23F0A32C6426B200A20510 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23F0A22C6426B200A20510 /* Layout.swift */; };
+		FD23F0A72C643C3D00A20510 /* AnimeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23F0A62C643C3D00A20510 /* AnimeDescription.swift */; };
+		FD23F0A92C64589E00A20510 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23F0A82C64589E00A20510 /* Welcome.swift */; };
+		FD23F0AB2C64826D00A20510 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23F0AA2C64826D00A20510 /* LoginView.swift */; };
+		FD23F0AD2C65CC2300A20510 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23F0AC2C65CC2300A20510 /* HomeScreen.swift */; };
+		FD2A2E652C618B67009CF76A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2A2E642C618B67009CF76A /* Test.swift */; };
+		FD81A5F82C61A8EE003E5224 /* AnimeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81A5F72C61A8EE003E5224 /* AnimeAPI.swift */; };
+		FD81A5FA2C61C1E4003E5224 /* AnimeObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81A5F92C61C1E4003E5224 /* AnimeObservable.swift */; };
+		FD81A5FE2C627405003E5224 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD81A5FD2C627405003E5224 /* ImageLoader.swift */; };
+		FD81A6012C62758D003E5224 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FD81A6002C62758D003E5224 /* SDWebImageSwiftUI */; };
 		FD8EF4842C5FFE2F00770FC2 /* anime_v2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8EF4832C5FFE2F00770FC2 /* anime_v2App.swift */; };
 		FD8EF4862C5FFE2F00770FC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8EF4852C5FFE2F00770FC2 /* ContentView.swift */; };
 		FD8EF4882C5FFE3000770FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8EF4872C5FFE3000770FC2 /* Assets.xcassets */; };
 		FD8EF48B2C5FFE3000770FC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8EF48A2C5FFE3000770FC2 /* Preview Assets.xcassets */; };
+		FD8EF4952C60837500770FC2 /* AppleSignInPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8EF4942C60837500770FC2 /* AppleSignInPassword.swift */; };
+		FD8EF4972C6127DB00770FC2 /* AnimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8EF4962C6127DB00770FC2 /* AnimeModel.swift */; };
+		FD8EF49B2C614BFC00770FC2 /* AnimeGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8EF49A2C614BFC00770FC2 /* AnimeGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD1D2FFA2C66DFB8000E754F /* DiscoverScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverScreen.swift; sourceTree = "<group>"; };
+		FD23F0A22C6426B200A20510 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		FD23F0A62C643C3D00A20510 /* AnimeDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDescription.swift; sourceTree = "<group>"; };
+		FD23F0A82C64589E00A20510 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		FD23F0AA2C64826D00A20510 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FD23F0AC2C65CC2300A20510 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		FD2A2E642C618B67009CF76A /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		FD81A5F72C61A8EE003E5224 /* AnimeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeAPI.swift; sourceTree = "<group>"; };
+		FD81A5F92C61C1E4003E5224 /* AnimeObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeObservable.swift; sourceTree = "<group>"; };
+		FD81A5FD2C627405003E5224 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		FD8EF4802C5FFE2F00770FC2 /* anime-v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "anime-v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8EF4832C5FFE2F00770FC2 /* anime_v2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anime_v2App.swift; sourceTree = "<group>"; };
 		FD8EF4852C5FFE2F00770FC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD8EF4872C5FFE3000770FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD8EF48A2C5FFE3000770FC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD8EF4912C5FFE3C00770FC2 /* anime-v2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "anime-v2.entitlements"; sourceTree = "<group>"; };
+		FD8EF4942C60837500770FC2 /* AppleSignInPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInPassword.swift; sourceTree = "<group>"; };
+		FD8EF4962C6127DB00770FC2 /* AnimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeModel.swift; sourceTree = "<group>"; };
+		FD8EF49A2C614BFC00770FC2 /* AnimeGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD81A6012C62758D003E5224 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +80,24 @@
 		FD8EF4822C5FFE2F00770FC2 /* anime-v2 */ = {
 			isa = PBXGroup;
 			children = (
+				FD23F0A22C6426B200A20510 /* Layout.swift */,
+				FD8EF4912C5FFE3C00770FC2 /* anime-v2.entitlements */,
 				FD8EF4832C5FFE2F00770FC2 /* anime_v2App.swift */,
 				FD8EF4852C5FFE2F00770FC2 /* ContentView.swift */,
 				FD8EF4872C5FFE3000770FC2 /* Assets.xcassets */,
 				FD8EF4892C5FFE3000770FC2 /* Preview Content */,
+				FD8EF4942C60837500770FC2 /* AppleSignInPassword.swift */,
+				FD8EF4962C6127DB00770FC2 /* AnimeModel.swift */,
+				FD8EF49A2C614BFC00770FC2 /* AnimeGrid.swift */,
+				FD81A5F92C61C1E4003E5224 /* AnimeObservable.swift */,
+				FD81A5FD2C627405003E5224 /* ImageLoader.swift */,
+				FD2A2E642C618B67009CF76A /* Test.swift */,
+				FD81A5F72C61A8EE003E5224 /* AnimeAPI.swift */,
+				FD23F0A62C643C3D00A20510 /* AnimeDescription.swift */,
+				FD23F0A82C64589E00A20510 /* Welcome.swift */,
+				FD23F0AA2C64826D00A20510 /* LoginView.swift */,
+				FD23F0AC2C65CC2300A20510 /* HomeScreen.swift */,
+				FD1D2FFA2C66DFB8000E754F /* DiscoverScreen.swift */,
 			);
 			path = "anime-v2";
 			sourceTree = "<group>";
@@ -83,6 +126,9 @@
 			dependencies = (
 			);
 			name = "anime-v2";
+			packageProductDependencies = (
+				FD81A6002C62758D003E5224 /* SDWebImageSwiftUI */,
+			);
 			productName = "anime-v2";
 			productReference = FD8EF4802C5FFE2F00770FC2 /* anime-v2.app */;
 			productType = "com.apple.product-type.application";
@@ -94,6 +140,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
@@ -111,6 +160,9 @@
 				Base,
 			);
 			mainGroup = FD8EF4772C5FFE2F00770FC2;
+			packageReferences = (
+				FD81A5FF2C62758D003E5224 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = FD8EF4812C5FFE2F00770FC2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +189,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD23F0A72C643C3D00A20510 /* AnimeDescription.swift in Sources */,
+				FD8EF49B2C614BFC00770FC2 /* AnimeGrid.swift in Sources */,
+				FD23F0AD2C65CC2300A20510 /* HomeScreen.swift in Sources */,
+				FD8EF4972C6127DB00770FC2 /* AnimeModel.swift in Sources */,
+				FD1D2FFB2C66DFB8000E754F /* DiscoverScreen.swift in Sources */,
+				FD8EF4952C60837500770FC2 /* AppleSignInPassword.swift in Sources */,
+				FD23F0A92C64589E00A20510 /* Welcome.swift in Sources */,
 				FD8EF4862C5FFE2F00770FC2 /* ContentView.swift in Sources */,
 				FD8EF4842C5FFE2F00770FC2 /* anime_v2App.swift in Sources */,
+				FD81A5FE2C627405003E5224 /* ImageLoader.swift in Sources */,
+				FD81A5FA2C61C1E4003E5224 /* AnimeObservable.swift in Sources */,
+				FD23F0A32C6426B200A20510 /* Layout.swift in Sources */,
+				FD23F0AB2C64826D00A20510 /* LoginView.swift in Sources */,
+				FD2A2E652C618B67009CF76A /* Test.swift in Sources */,
+				FD81A5F82C61A8EE003E5224 /* AnimeAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +334,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "anime-v2/anime-v2.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"anime-v2/Preview Content\"";
 				DEVELOPMENT_TEAM = BK58SGGS27;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -298,12 +365,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "anime-v2/anime-v2.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"anime-v2/Preview Content\"";
 				DEVELOPMENT_TEAM = BK58SGGS27;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +413,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD81A5FF2C62758D003E5224 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD81A6002C62758D003E5224 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD81A5FF2C62758D003E5224 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FD8EF4782C5FFE2F00770FC2 /* Project object */;
 }

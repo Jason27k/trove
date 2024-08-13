@@ -8,12 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("id") private var id: String = ""
+    @AppStorage("firstName") private var firstName: String = ""
+    @AppStorage("lastName") private var lastName: String = ""
+    @AppStorage("email") private var email: String = ""
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            if id == "" {
+                
+                AppleSignInPassword()
+            } else {
+                ScrollView{
+                    Text(id)
+                    Text(firstName)
+                    Text(lastName)
+                    Text(email)
+                }
+            }
         }
         .padding()
     }
@@ -22,3 +34,4 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
